@@ -13,4 +13,6 @@ Code repository for CVPR2024 paper 《Pre-trained Model Guided Fine-Tuning for Z
     ·
     <p align="center" margin-top="0px"><a href="https://arxiv.org/abs/2401.04350">https://arxiv.org/abs/2401.04350</a></p>
 </p>
-This is a code repository for CVPR2024 paper 《Pre-trained Model Guided Fine-Tuning for Zero-Shot Adversarial Robustness》 .We will release our code on this repository later.
+This is a code repository for CVPR2024 paper 《Pre-trained Model Guided Fine-Tuning for Zero-Shot Adversarial Robustness》.
+**We will release our code on this repository later.
+**
