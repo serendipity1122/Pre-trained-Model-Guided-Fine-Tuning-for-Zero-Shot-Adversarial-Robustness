@@ -21,5 +21,5 @@ Specifically, PMG-AFT minimizes the distance between the features of adversarial
 Extensive Experiments on 15 zero-shot datasets demonstrate that PMG-AFT significantly outperforms the state-of-the-art method, improving the top-1 robust accuracy by an average of 4.99%.
 Furthermore, our approach consistently improves clean accuracy by an average of 8.72%.
 
-Code framework and baseline reference [ZSRobust].(https://github.com/cvlab-columbia/ZSRobust4FoundationModel)
+Code framework and baseline reference [TeCoA].(https://github.com/cvlab-columbia/ZSRobust4FoundationModel)
 ## We will release our code on this repository later.
