@@ -21,5 +21,10 @@ Specifically, PMG-AFT minimizes the distance between the features of adversarial
 Extensive Experiments on 15 zero-shot datasets demonstrate that PMG-AFT significantly outperforms the state-of-the-art method, improving the top-1 robust accuracy by an average of 4.99%.
 Furthermore, our approach consistently improves clean accuracy by an average of 8.72%.
 
+## Replace
+Replace the files in the replace folder to the source code in your environmet:  
 
-## We will release our code on this repository later.
+replace `anaconda3/envs/zsrobust/lib/python3.9/site-packages/clip/clip.py` and `anaconda3/envs/zsrobust/lib/python3.9/site-packages/clip/model.py` with clip.py and model.py in the replace folder respectively. 
+
+replace the `anaconda3/envs/zsrobust/lib/python3.9/site-packages/torchvision/datasets` with the files in `replace/torchvision.datasets` 
+for updated dataset loader
