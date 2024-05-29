@@ -733,8 +733,8 @@ def train(train_loader, texts, model, model_ori, model_text, model_image, prompt
                                                                 text_tokens,
                                                                 prompt_token)
 
-            loss_advori = criterion_kl(F.log_softmax(output_ori, dim=1), F.softmax(output, dim=1))
-            loss_advclean = criterion_kl(F.log_softmax(output_clean, dim=1), F.softmax(output, dim=1))
+            loss_advori = criterion_kl(F.log_softmax(output, dim=1), F.softmax(output_ori, dim=1))
+            loss_advclean = criterion_kl(F.log_softmax(output, dim=1), F.softmax(output_clean, dim=1))
             loss = criterion(output, target) + loss_advclean + loss_advori
             # print(loss)
 
